@@ -9,8 +9,8 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <!-- Шапка сайта-->
@@ -24,7 +24,9 @@
           >
           <ul class="list navigation-list">
             <li class="nav list item">
-              <a class="nav-links link current" href="index.html">Студия</a>
+              <a class="nav-links link current s-pseudo" href="index.html"
+                >Студия</a
+              >
             </li>
             <li class="nav list item">
               <a class="nav-links link" href="portfolio.html">Портфолио</a>
@@ -133,13 +135,13 @@
         <div class="our-work-container container">
           <h2 class="our-work-title">Чем мы занимаемся</h2>
           <ul class="our-work-list list">
-            <li class="our-work-list list item">
+            <li class="our-work-list list item label1">
               <img src="./images/box1.jpg" width="370" alt="Описание фото 1" />
             </li>
-            <li class="our-work-list list item">
+            <li class="our-work-list list item label2">
               <img src="./images/box2.jpg" width="370" alt="Описание фото 2" />
             </li>
-            <li class="our-work-list list item">
+            <li class="our-work-list list item label3">
               <img src="./images/box3.jpg" width="370" alt="Описание фото 3" />
             </li>
           </ul>
@@ -502,7 +504,7 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
-          <svg class="social-list-icon">
+          <svg class="modal-close-btn-icon">
             <use href="./images/icons/sprite.svg#icon-modal-close-btn"></use>
           </svg>
         </button>
